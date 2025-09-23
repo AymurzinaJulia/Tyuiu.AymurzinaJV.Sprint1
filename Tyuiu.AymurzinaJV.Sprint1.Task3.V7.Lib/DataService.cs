@@ -6,7 +6,7 @@ namespace Tyuiu.AymurzinaJV.Sprint1.Task3.V7.Lib
     {
         public double VerstsToKilometers(double verst)
         {
-            return verst * 1066.8;
+            return verst * 1066.8 / 1000;
         }
     }
 }
